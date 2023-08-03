@@ -9,7 +9,7 @@ import time
 SERVER = 'localhost:9092'
 class CustomerBot:       
     def openAI(self,training_data,consumer):
-        openai.api_key = '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'
+        openai.api_key = KEY
         #consumer = KafkaConsumer('thisATest',bootstrap_servers=SERVER,group_id = 'group1',auto_offset_reset='latest')
 
         for message in consumer:
