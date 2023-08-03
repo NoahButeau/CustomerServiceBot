@@ -1,5 +1,3 @@
-# This file is me trying to create host on a server and then create the chatbot there
-
 from flask import Flask, request, render_template_string,render_template
 from kafka import KafkaConsumer
 from kafkaUtils import *
